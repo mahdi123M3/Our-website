@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>صرافی</title>
+</head>
+<body style="direction: rtl;">
+    <div class="sticky-top p-2 shadow hovered" style="background-color: #172D13;">
+        <nav class="navbar navbar-expand-lg container" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 700;" href="#">صرافی <span style="color: #6BB77B;">عقاب</span></a>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse" id="navbarColor03" style="">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      خدمات
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #172D13;">
+                      <li><a class="dropdown-item" href="#">ارسال و دریافت حواله افغانستان</a></li>
+                      <li><a class="dropdown-item" href="#">ارسال و دریافت حواله ایران</a></li>
+                      <li><a class="dropdown-item" href="#">ارسال و دریافت حواله ترکیه</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">ارسال و دریافت حواله آلمان</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      نرخ
+                    </a>
+                    <ul class="dropdown-menu" style="background-color: #172D13;">
+                      <li><a class="dropdown-item" href="#">نرخ حواله بین افغانستان و ایران</a></li>
+                      <li><a class="dropdown-item" href="#">نرخ حواله بین افغانستان و ترکیه</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">نرخ حواله بین ایران و ترکیه</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover" href="#">نمایندگی ها</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover" href="#">تماس</a>
+                  </li>
+                </ul>
+                <div class="d-flex justify-content-lg-end" style="width: 185px;">
+                    <button>ارسال پیام</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+    <div class="py-4 background-image" data-bs-theme="dark">
+      <section class="container" style="color: white;">
+        <di class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="display-5 mb-4" style="font-weight: 700;">حواله جات داخلی و خارجی</h2>
+            <p class="mb-4">حواله ارزی به افغانستان، ترکیه، آلمان و دیگر کشورهای اتحادیه اروپا با کمترین هزینه</p>
+            <div class="text-center text-md-end"><button>بیشتر بدانید</button></div>
+          </div>
+          <div class="col-md-6">
+            <img src="images/Credit card-bro.png" class="img-fluid">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="py-4">
+      <section class="container">
+            <h2 class="display-7 text-end" style="color: #6BB77B;">نرخ برابری اسعار ( نرخ ارز )</h2>
+
+        <div class="row text-lg-start text-md-start text-sm-center mt-4">
+          <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Afghanistan')">افغانستان<img src="images/afghan.jpeg" style="width: 30px; height: 30px; border-radius: 50%;" alt=""></button>
+            <button class="tablinks" onclick="openCity(event, 'turkey')">ترکیه<img src="images/turkey.jpeg" style="width: 30px; height: 30px; border-radius: 50%;" alt=""></button>
+          </div>
+          
+          <div id="Afghanistan" class="tabcontent active">
+            <div class="row mt-4">
+              <table class="table table-hover table-bordered text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">-</th>
+                    <th scope="col">نوع ارز</th>
+                    <th scope="col">نرخ خرید</th>
+                    <th scope="col">نرخ فروش</th>
+                    <th scope="col">آخرین بروز رسانی</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><img style="width: 30px; border-radius: 50%; height: 30px;" src="images/1280px-Flag_of_the_United_States.svg.png" alt=""></th>
+                    <td>نرخ دالر به افغانی</td>
+                    <td>86.00</td>
+                    <td>86.06</td>
+                    <td>15:51 - 18/7/2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img style="width: 30px; border-radius: 50%; height: 30px;" src="images/iran.jpg" alt=""></th>
+                    <td>دالر (دلار) به تومان</td>
+                    <td>48,900</td>
+                    <td>48,950</td>
+                    <td>15:51 - 18/7/2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img style="width: 30px; border-radius: 50%; height: 30px;" src="images/Union.png" alt=""></th>
+                    <td>نرخ یورو به افغانی</td>
+                    <td>96.52</td>
+                    <td>96.64</td>
+                    <td>15:51 - 18/7/2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img style="width: 30px; border-radius: 50%; height: 30px;" src="images/turkey.jpeg" alt=""></th>
+                    <td>لیره ترکیه به افغانی</td>
+                    <td>3.41</td>
+                    <td>3.44</td>
+                    <td>15:51 - 18/7/2023</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          
+          <div id="turkey" class="tabcontent">
+            <div class="row mt-4">
+              <table class="m-3 table table-hover table-bordered text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">-</th>
+                    <th scope="col">نوع ارز</th>
+                    <th scope="col">نرخ خرید</th>
+                    <th scope="col">نرخ فروش</th>
+                    <th scope="col">آخرین بروز رسانی</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><img style="width: 30px; border-radius: 50%; height: 30px;" src="images/1280px-Flag_of_the_United_States.svg.png" alt=""></th>
+                    <td>نرخ دالر به لیره</td>
+                    <td>26.14</td>
+                    <td>26.19</td>
+                    <td>15:51 - 18/7/2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img style="width: 30px; border-radius: 50%; height: 30px;" src="images/iran.jpg" alt=""></th>
+                    <td>1,000,000 تومان به لیره</td>
+                    <td>29.37</td>
+                    <td>29.42</td>
+                    <td>15:51 - 18/7/2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img style="width: 30px; border-radius: 50%; height: 30px;" src="images/Union.png" alt=""></th>
+                    <td>یورو به لیره ترکیه</td>
+                    <td>304</td>
+                    <td>319</td>
+                    <td>15:51 - 18/7/2023</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img style="width: 30px; border-radius: 50%; height: 30px;" src="images/turkey.jpeg" alt=""></th>
+                    <td>1,000 افغانی به لیره</td>
+                    <td>540</td>
+                    <td>570</td>
+                    <td>15:51 - 18/7/2023</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+
+        <div class="pt-4" style="background-color: #5286494c;">
+          <section class="container">
+            <div class="row">
+              <div class="col">
+                <h3 style="color: #6BB77B; font-weight: 700; font-size: 30px;">خدمات صرافی عقاب</h3>
+                <p>برترین ارائه دهنده خدمات پولی در افغانستان</p>
+              </div>
+              <div class="col text-start">
+                <button>تمامی خدمات ما</button>
+              </div>
+            </div>
+
+              <div class="section_our_solution p-5">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="our_solution_category">
+                      <div class="solution_cards_box">
+                        <div class="solution_card">
+                          <div class="hover_color_bubble"></div>
+                          <div class="solu_title">
+                            <h3>حواله بین المللی</h3>
+                          </div>
+                          <div class="solu_description">
+                            <p>
+                              حواله (ارسال پول) فوری و ارزان به افغانستان، ایران، ترکیه، آلمان و دیگر کشورهای دیگر
+                            </p>
+                            <button type="button" class="read_more_btn">بیشتر بدانید</button>
+                          </div>
+                        </div>
+                        <div class="solution_card">
+                          <div class="hover_color_bubble"></div>
+                          <div class="solu_title">
+                            <h3>ارسال حواله به افغانستان ، سوئد ، ایران ، ترکیه</h3>
+                          </div>
+                          <div class="solu_description">
+                            <p>
+                              
+ارسال حواله به کشور های مختلف و بدون درد سر از جمله در افغانستان، ایران ، ترکیه و سوئد به بهترین نرخ
+                            </p>
+                            <button type="button" class="read_more_btn">بیشتر بدانید</button>
+                          </div>
+                        </div>
+                      </div>
+                      <!--  -->
+                      <div class="solution_cards_box sol_card_top_3">
+                        <div class="solution_card">
+                          <div class="hover_color_bubble"></div>
+                          <div class="solu_title">
+                            <h3>حواله</h3>
+                          </div>
+                          <div class="solu_description">
+                            <p>
+                              از طریق نمایندگی ها
+                            </p>
+                            <hr>
+                            <div class="solu_description">
+                              <h3>ارسال پول</h3>
+                            </div>
+                            <p>
+                              با استفاده از رمز ارزها
+                            </p>
+                            <button type="button" class="read_more_btn">بیشتر بدانید</button>
+                          </div>
+                        </div>
+                        <div class="solution_card">
+                          <div class="hover_color_bubble"></div>
+                          <div class="solu_title">
+                            <h3>ارسال حواله</h3>
+                          </div>
+                          <div class="solu_description">
+                            <p>
+                              به بالاترین نرخ ممکن
+                            </p>
+                            <hr>
+                          <div class="solu_title">
+                            <h3>تبدیل ارز</h3>
+                          </div>
+                          <div class="solu_description">
+                            <p>
+                              به بهترین نرخ بازار
+                            </p>
+                            <button type="button" class="read_more_btn">بیشتر بدانید</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </section>
+      </div>
+
+              <div class="py-4">
+                <main class="container text-center">
+                  <div class="row">
+                    <div class="col">
+                      <div class="card-body p-5 mb-3 text-center" style="background-color: #77bdf74c; border-radius: 20px;">
+                        <div class="col">
+                          <svg fill="#09d466" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 30.667 30.667" xml:space="preserve">
+                            <g>
+	                        <path d="M30.667,14.939c0,8.25-6.74,14.938-15.056,14.938c-2.639,0-5.118-0.675-7.276-1.857L0,30.667l2.717-8.017
+		c-1.37-2.25-2.159-4.892-2.159-7.712C0.559,6.688,7.297,0,15.613,0C23.928,0.002,30.667,6.689,30.667,14.939z M15.61,2.382
+		c-6.979,0-12.656,5.634-12.656,12.56c0,2.748,0.896,5.292,2.411,7.362l-1.58,4.663l4.862-1.545c2,1.312,4.393,2.076,6.963,2.076
+		c6.979,0,12.658-5.633,12.658-12.559C28.27,8.016,22.59,2.382,15.61,2.382z M23.214,18.38c-0.094-0.151-0.34-0.243-0.708-0.427
+		c-0.367-0.184-2.184-1.069-2.521-1.189c-0.34-0.123-0.586-0.185-0.832,0.182c-0.243,0.367-0.951,1.191-1.168,1.437
+		c-0.215,0.245-0.43,0.276-0.799,0.095c-0.369-0.186-1.559-0.57-2.969-1.817c-1.097-0.972-1.838-2.169-2.052-2.536
+		c-0.217-0.366-0.022-0.564,0.161-0.746c0.165-0.165,0.369-0.428,0.554-0.643c0.185-0.213,0.246-0.364,0.369-0.609
+		c0.121-0.245,0.06-0.458-0.031-0.643c-0.092-0.184-0.829-1.984-1.138-2.717c-0.307-0.732-0.614-0.611-0.83-0.611
+		c-0.215,0-0.461-0.03-0.707-0.03S9.897,8.215,9.56,8.582s-1.291,1.252-1.291,3.054c0,1.804,1.321,3.543,1.506,3.787
+		c0.186,0.243,2.554,4.062,6.305,5.528c3.753,1.465,3.753,0.976,4.429,0.914c0.678-0.062,2.184-0.885,2.49-1.739
+		C23.307,19.268,23.307,18.533,23.214,18.38z"/>
+                              </g>
+                          </svg>
+                        </div>
+                        <h5 class="card-title mt-3">نیاز به صرافی مطمئن برای ارسال حواله دارید؟</h5>
+                        <p class="card-text my-4">همین حالا از طریق واتس اپ برای ما پیام بگذارید و یا با ما تماس بگیرید</p>
+                        <button >واتس اپ صرافی عقاب</button>
+                      </div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+
+
+              <div class="py-4">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <h3 style="color: #6BB77B; font-weight: 700; font-size: 30px;">آخرین نوشته های وبلاگ</h3>
+                      <p>اخبار و مقاله های ما را در شبکه های اجتماعی و وبلاگ صرافی جعفری دنبال کنید</p>
+                    </div>
+                    <div class="col-6 text-start">
+                      <button>آرشیو مقاله ها</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12 col-lg-6 col-md-12">
+                      <div class="card">
+                        <img src="images/انتقال-پول-از-سوئد-به-ایران.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">انتقال پول از سوئد به ایران</h5>
+                          <p class="card-text">صرافی جعفری دارای مجوز کاملاً قانونی در زمینه انتقالات ارز است و نمایندگی‌هایی در سوئد و ایران دارد. این صرافی می‌تواند به شما در انتقال پول از سوئد به ایران کمک کند. از طریق خدمات صرافی جعفری، شما می‌توانید به طور قانونی و امن پول خود را از سوئد به ایران انتقال دهید. برای اطلاعات بیشتر و درخواست کمک در این زمینه، می‌توانید با صرافی جعفری تماس بگیرید.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6 col-md-12">
+                      <div class="card p-3 my-4">
+                        <div class="card-body">
+                          <h5>انتقال پول از سوئد به ایران</h5>
+                        </div>
+                      </div>
+                      <div class="card my-3 p-3">
+                        <div class="card-body">
+                          <h5>پرداخت شهریه دانشگاه سوئد</h5>
+                        </div>
+                      </div>
+                      <div class="card my-3 p-3">
+                        <div class="card-body">
+                          <h5>پرداخت شهریه دانشگاه آلمان</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="py-4">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-6 dsnone">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <h5>لیست خدمات</h5>
+                          <ul>
+                            <li><a href="#">ارسال و دریافت حواله افغانستان</a></li>
+                            <li><a href="#">ارسال و دریافت حواله ایران</a></li>
+                            <li><a href="#">ارسال و دریافت حواله ترکیه</a></li>
+                            <li><a href="#">ارسال و دریافت حواله آلمان</a></li>
+                          </ul>
+                        </div>
+                        <div class="col-lg-6">
+                          <h5>نرخ حواله</h5>
+                          <ul>
+                            <li><a href="#">نرخ حواله بین افغانستان و ایران</a></li>
+                            <li><a href="#">نرخ حواله بین افغانستان و ترکیه</a></li>
+                            <li><a href="#">نرخ حواله بین ایران و ترکیه</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="container" style="background-color: rgba(201, 201, 201, 0.268);">
+                        <div class="row">
+                            <p class="mt-4">راه های ارتباطی صرافی جعفری</p>
+                            <p>@ <a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <p>با ما همراه باشید</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- Facebook -->
+                                <a
+                                  class="btn text-white btn-floating m-1"
+                                  style="background-color: #3b5998;"
+                                  href="#!"
+                                  role="button"
+                                  ><i class="bi bi-facebook"></i
+                                ></a>
+                            
+                                <!-- Twitter -->
+                                <a
+                                  class="btn text-white btn-floating m-1"
+                                  style="background-color: #55acee;"
+                                  href="#!"
+                                  role="button"
+                                  ><i class="bi bi-twitter"></i
+                                ></a>
+                            
+                                <!-- Instagram -->
+                                <a
+                                  class="btn text-white btn-floating m-1"
+                                  style="background-color:  #ac2bac;"
+                                  href="#!"
+                                  role="button"
+                                  ><i class="bi bi-instagram"></i
+                                ></a>
+                            
+                                <!-- telegram -->
+                                <a
+                                  class="btn text-white btn-floating m-1"
+                                  style="background-color: #0082ca;"
+                                  href="#!"
+                                  role="button"
+                                  ><i class="bi bi-telegram"></i
+                                ></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <footer class="text-center text-white" style="background-color: #172D13;">
+                <!-- Grid container -->
+                <div class="container p-4 pb-0">
+                  <!-- Section: Social media -->
+                  <section class="mb-4">
+                    <a href="#" style="color: #68b87b; margin: 0 20px;">تماس با ما</a>
+                    <a href="#" style="color: #68b87b; margin: 0 20px;">سوالات متداول</a>
+                    <a href="#" style="color: #68b87b; margin: 0 20px;">فرصت های شغلی</a>
+                    <a href="#" style="color: #68b87b; margin: 0 20px;">همکاری با ما</a>
+                    
+                  </section>
+                </div>
+                <hr>
+                <div class="text-center pb-3">
+                  <a class="text-white" href="https://mdbootstrap.com/">تمامی حقوق مادی و معنوی این سایت متعلق به صرافی عقاب می‌باشد.</a>
+                </div>
+              </footer>
+
+        <script>
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+          </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
