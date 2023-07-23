@@ -250,9 +250,6 @@ h5{
     color: #0b472f;
 }
 
-.btn{
-    border-radius: 48%;
-}
 
 @media only screen and (max-width: 1024px){
     .dsnone{
